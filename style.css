@@ -1,0 +1,122 @@
+@media only screen and (max-width: 821px) {
+    .navbar{
+        position: relative;
+    }
+    #navbar-color {
+      background-color: rgb(66, 66, 66);
+    }
+    #navbar-color a ,#dropdownMenuButton1,.text-center  {
+      color:white;
+    }
+    #avatarnavbar a , #about-dropdown-item a {
+        color: black;
+    }
+    
+    #carouselExampleSlidesOnly {
+        display: none;
+    }
+    
+    .container-md {
+        display: block;
+    }
+    #card-body {
+        text-align: center;
+        margin-top: 20px;
+        padding: 0;
+        font-size: 3vw;
+    }
+    #number {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #board {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #table {
+        font-size:3vw;
+    }
+    #footerlogo {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    #contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #Quick {
+      display: none;
+    }
+    #number > button {
+      padding: 25px;
+      width: 300px;
+      font-size: larger;
+      margin-bottom: 15px;
+    }
+  }
+  @media only screen and (min-width: 822px) {
+    .container-md {
+        display: none;
+    }
+    #info {
+        max-height: 500px;
+    }
+   
+    .carousel-item{
+        opacity: 80%;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+      }
+    .on-slide-down {
+        height: 500px;
+    }
+    #navbar-color {
+      background-color: ivory;
+    }
+
+   
+  }
+
+.font {
+    font-family: Poppins;
+    background-image: linear-gradient(to left,#61aeff, #b185f8);
+}
+  
+  .nav-tabs .nav-link.active {
+    background-image: linear-gradient(-45deg,#f76f31 ,#eecd16) ;
+    color: white;
+  }
+  .list-group-item-warning {
+    color: #664d03;
+    background-color: transparent;
+  }
+  
+  #bg {
+    background-image: linear-gradient(to left,#61aeff, #b185f8);
+    margin-top: 10px;
+  }
+  #info {
+      background-color:ivory;
+  }
+  .btn-check:focus+.btn, .btn:focus {
+     outline: 0;
+     box-shadow:none;
+  }
+  #number {
+    display: flex;
+    justify-content: space-between;
+}
+#number > button {
+  padding: 20px;
+  width: 300px;
+  font-size: large;
+}
